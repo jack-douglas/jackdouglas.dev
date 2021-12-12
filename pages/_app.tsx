@@ -19,7 +19,8 @@ const GlobalStyle = createGlobalStyle`
     background: var(--background_100);
     background-image: url("https://cdn.jackdouglas.dev/2021/12/hPfjfqa4Cvq.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-position: center;
+    background-size: cover;
     color: var(--text);
     overscroll-behavior-y: none;
   }
