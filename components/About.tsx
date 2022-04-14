@@ -8,7 +8,7 @@ import Status from './Status';
 export const About: FC = () => {
   const age =
     new Date(
-      new Date().getTime() - new Date('12/04/1999 00:00:00').getTime(),
+      new Date().getTime() - new Date('04/12/1999 00:00:00').getTime(),
     ).getFullYear() - 1970;
 
   return (
